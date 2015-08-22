@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Some amazing website</title>
+        <?php $this->assets->outputCss() ?>
+        <script src="//cdn.ckeditor.com/4.5.3/standard/ckeditor.js"></script>
+    </head>
+    <body>
+
+        <div><?php echo $this->getContent() ?></div>
+
+        <?php $this->assets->outputJs() ?>
+    </body>
+</html>
+

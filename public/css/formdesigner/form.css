@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 15, 2015, 10:01:34 PM
+    Author     : dwhittom
+*/
+
+div.form-element > label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.form-element > label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-element.selected {
+    background-color: #f8f8f8;
+    outline: 2px solid #9dd2f7;
+    z-index:100000;
+}
+.form-element {
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+}
+.ui-droppable {
+    padding: 5px 10px 10px 5px;
+}
+.ui-helper {
+    z-index:100000;
+}
+.canvas {
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    height: 100%;
+    margin-left: 200px;
+    width: 800px;
+    float:left;
+}
+
+.components {
+    float: left;
+}
+
+section {
+    border: 1px dotted #cccccc;
+    display: block;
+    min-height: 150px;
+    min-width: 300px;
+}
+
+.drop-hover {
+    background-color: #caebfc;
+}
+
+form {
+    height: 100%;
+}
